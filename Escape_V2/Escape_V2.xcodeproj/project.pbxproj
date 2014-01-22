@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00DF25E41890183E00C8D542 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00DF25E31890183E00C8D542 /* ResourcePath.mm */; };
 		00DF25E71890183E00C8D542 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DF25E61890183E00C8D542 /* main.cpp */; };
 		00DF25EA1890183E00C8D542 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00DF25E91890183E00C8D542 /* cute_image.jpg */; };
 		00DF25EC1890183E00C8D542 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 00DF25EB1890183E00C8D542 /* nice_music.ogg */; };
@@ -24,6 +25,8 @@
 /* Begin PBXFileReference section */
 		00DF25DE1890183E00C8D542 /* Escape_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escape_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DF25E21890183E00C8D542 /* Escape_V2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Escape_V2-Info.plist"; sourceTree = "<group>"; };
+		00DF25E31890183E00C8D542 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		00DF25E51890183E00C8D542 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		00DF25E61890183E00C8D542 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		00DF25E91890183E00C8D542 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
 		00DF25EB1890183E00C8D542 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 		00DF25E01890183E00C8D542 /* Escape_V2 */ = {
 			isa = PBXGroup;
 			children = (
+				00DF25E31890183E00C8D542 /* ResourcePath.mm */,
+				00DF25E51890183E00C8D542 /* ResourcePath.hpp */,
 				00DF25E61890183E00C8D542 /* main.cpp */,
 				00DF25E81890183E00C8D542 /* Resources */,
 				00DF25E11890183E00C8D542 /* Supporting Files */,
@@ -191,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00DF25E71890183E00C8D542 /* main.cpp in Sources */,
+				00DF25E41890183E00C8D542 /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +310,6 @@
 		00DF25F41890183E00C8D542 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
@@ -317,7 +322,6 @@
 		00DF25F51890183E00C8D542 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
@@ -346,7 +350,6 @@
 				00DF25F51890183E00C8D542 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

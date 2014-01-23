@@ -71,13 +71,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CreditState.cpp" />
     <ClCompile Include="GameState.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OptionsState.cpp" />
     <ClCompile Include="StartMenuState.cpp" />
     <ClCompile Include="StateManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CreditState.h" />
     <ClInclude Include="GameState.h" />
+    <ClInclude Include="OptionsState.h" />
     <ClInclude Include="StartMenuState.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="StateManager.h" />

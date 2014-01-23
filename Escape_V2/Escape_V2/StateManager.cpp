@@ -1,7 +1,7 @@
 // StateManager.cpp
 
 #include "StateManager.h"
-
+#include "State.h"
 
 StateManager::StateManager() {
 	mp_current = nullptr;
@@ -26,9 +26,7 @@ void StateManager::Update(float deltatime) {
 	}
 
 	if(mp_current->Update(deltatime)) {
-		if(mp_current->IsType("ExitState")) {
-			m_quit = true;
-		}
+		
 	}
 	ChangeState();
 }

@@ -1,14 +1,17 @@
 // main.cpp
 
-#include <iostream>
-#include <SFML/Graphics.hpp>
+#include "Engine.h"
 
 
 int main(int argc, char* argv[])
 {
-    std::cout << "Hello world!\n";
+    Engine engine;
     
-	std::cin.get();
+    if(engine.Initialize())
+    {
+        engine.Run();
+    }
+    
 	
     return 0;
 }

@@ -19,6 +19,13 @@
 		00DF260118901A9900C8D542 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DF25FB18901A9900C8D542 /* sfml-system.framework */; };
 		00DF260218901A9900C8D542 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DF25FC18901A9900C8D542 /* sfml-window.framework */; };
 		00DF260318901A9900C8D542 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DF25FD18901A9900C8D542 /* SFML.framework */; };
+		00DF260F18915F0300C8D542 /* CreditState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DF260418915F0300C8D542 /* CreditState.cpp */; };
+		00DF261018915F0300C8D542 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DF260618915F0300C8D542 /* GameState.cpp */; };
+		00DF261118915F0300C8D542 /* OptionsState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DF260818915F0300C8D542 /* OptionsState.cpp */; };
+		00DF261218915F0300C8D542 /* StartMenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DF260A18915F0300C8D542 /* StartMenuState.cpp */; };
+		00DF261318915F0300C8D542 /* StateManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DF260D18915F0300C8D542 /* StateManager.cpp */; };
+		00DF26161891610F00C8D542 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DF26151891610F00C8D542 /* State.cpp */; };
+		00DF261818916A2900C8D542 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00DF261718916A2900C8D542 /* Engine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,20 @@
 		00DF25FB18901A9900C8D542 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
 		00DF25FC18901A9900C8D542 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
 		00DF25FD18901A9900C8D542 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		00DF260418915F0300C8D542 /* CreditState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreditState.cpp; sourceTree = "<group>"; };
+		00DF260518915F0300C8D542 /* CreditState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditState.h; sourceTree = "<group>"; };
+		00DF260618915F0300C8D542 /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		00DF260718915F0300C8D542 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		00DF260818915F0300C8D542 /* OptionsState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionsState.cpp; sourceTree = "<group>"; };
+		00DF260918915F0300C8D542 /* OptionsState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsState.h; sourceTree = "<group>"; };
+		00DF260A18915F0300C8D542 /* StartMenuState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StartMenuState.cpp; sourceTree = "<group>"; };
+		00DF260B18915F0300C8D542 /* StartMenuState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMenuState.h; sourceTree = "<group>"; };
+		00DF260C18915F0300C8D542 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		00DF260D18915F0300C8D542 /* StateManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateManager.cpp; sourceTree = "<group>"; };
+		00DF260E18915F0300C8D542 /* Statemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statemanager.h; sourceTree = "<group>"; };
+		00DF261418915FBF00C8D542 /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		00DF26151891610F00C8D542 /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
+		00DF261718916A2900C8D542 /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +104,20 @@
 			isa = PBXGroup;
 			children = (
 				00DF25E61890183E00C8D542 /* main.cpp */,
+				00DF260418915F0300C8D542 /* CreditState.cpp */,
+				00DF260518915F0300C8D542 /* CreditState.h */,
+				00DF260618915F0300C8D542 /* GameState.cpp */,
+				00DF260718915F0300C8D542 /* GameState.h */,
+				00DF260818915F0300C8D542 /* OptionsState.cpp */,
+				00DF260918915F0300C8D542 /* OptionsState.h */,
+				00DF260A18915F0300C8D542 /* StartMenuState.cpp */,
+				00DF260B18915F0300C8D542 /* StartMenuState.h */,
+				00DF26151891610F00C8D542 /* State.cpp */,
+				00DF260C18915F0300C8D542 /* State.h */,
+				00DF260D18915F0300C8D542 /* StateManager.cpp */,
+				00DF260E18915F0300C8D542 /* Statemanager.h */,
+				00DF261718916A2900C8D542 /* Engine.cpp */,
+				00DF261418915FBF00C8D542 /* Engine.h */,
 				00DF25E81890183E00C8D542 /* Resources */,
 				00DF25E11890183E00C8D542 /* Supporting Files */,
 			);
@@ -190,6 +225,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DF261218915F0300C8D542 /* StartMenuState.cpp in Sources */,
+				00DF261818916A2900C8D542 /* Engine.cpp in Sources */,
+				00DF260F18915F0300C8D542 /* CreditState.cpp in Sources */,
+				00DF261018915F0300C8D542 /* GameState.cpp in Sources */,
+				00DF261318915F0300C8D542 /* StateManager.cpp in Sources */,
+				00DF26161891610F00C8D542 /* State.cpp in Sources */,
+				00DF261118915F0300C8D542 /* OptionsState.cpp in Sources */,
 				00DF25E71890183E00C8D542 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +351,7 @@
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Escape_V2/Escape_V2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -322,6 +365,7 @@
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Escape_V2/Escape_V2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

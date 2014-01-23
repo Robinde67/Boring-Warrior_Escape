@@ -62,7 +62,7 @@ bool StateManager::IsRunning() {
 
 void StateManager::SetState(const std::string &c_type) {
 	for(unsigned int i = 0; i < m_states.size(); i++) {
-		if(m_states[i]->IsType(c_type) {
+		if(m_states[i]->IsType(c_type)) {
 			mp_current = m_states[i];
 			mp_current->Enter();
 			return;
@@ -72,12 +72,14 @@ void StateManager::SetState(const std::string &c_type) {
 
 void StateManager::Init() {
 	for(unsigned int i = 0; i < m_states.size(); i++) {
+        //lägg till en Init() i State
 		m_states.at(i)->Init();
 	}
 }
 
 void StateManager::CleanUp() {
 	for(unsigned int i = 0; i < m_states.size(); i++) {
+        //använd delete istället eller lägg till en Cleanup() funktion i State
 		m_states.at(i)->CleanUp();
 	}
 }

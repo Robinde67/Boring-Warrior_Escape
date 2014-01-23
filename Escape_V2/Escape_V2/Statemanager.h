@@ -1,13 +1,30 @@
+// StateManager.h
 
-class State {
+#pragma once
 
-	virtual void Enter() = 0;
-	virtual void Exit() = 0;
-	virtual void Update() = 0;
-	virtual void Draw() = 0;
-	virtual void Next() = 0;
-	virtual void IsType() = 0;
-	virtual void Reset() = 0;
+#include <vector>
 
-	static void ms_window();
+//class State;
+
+class StateManager
+{
+public:
+	StateManager();
+	~StateManager();
+
+	void Attach(State *state);
+	void Update(float deltatime);
+	void Draw();
+	void SetState(const std::string &c_type);
+	void ChangeState();
+	bool IsRunning();
+	void Init();
+	void CleanUp();
+
+private:
+	std::vector<State*> m_states;
+	State *mp_current;
+
+	bool m_quit;
+
 };

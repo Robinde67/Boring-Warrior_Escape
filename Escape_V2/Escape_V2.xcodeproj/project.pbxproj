@@ -7,141 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CB94A21892AD9F000C093B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CB94A11892AD9F000C093B /* main.cpp */; };
-		00CB94A51892AD9F000C093B /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00CB94A41892AD9F000C093B /* cute_image.jpg */; };
-		00CB94A71892AD9F000C093B /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 00CB94A61892AD9F000C093B /* nice_music.ogg */; };
-		00CB94A91892AD9F000C093B /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00CB94A81892AD9F000C093B /* sansation.ttf */; };
-		00CB94AB1892AD9F000C093B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 00CB94AA1892AD9F000C093B /* icon.png */; };
-		00CB94BA1892AE75000C093B /* CreditState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CB94B31892AE75000C093B /* CreditState.cpp */; };
-		00CB94BB1892AE75000C093B /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CB94B41892AE75000C093B /* Engine.cpp */; };
-		00CB94BC1892AE75000C093B /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CB94B51892AE75000C093B /* GameState.cpp */; };
-		00CB94BD1892AE75000C093B /* OptionsState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CB94B61892AE75000C093B /* OptionsState.cpp */; };
-		00CB94BE1892AE75000C093B /* StartMenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CB94B71892AE75000C093B /* StartMenuState.cpp */; };
-		00CB94BF1892AE75000C093B /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CB94B81892AE75000C093B /* State.cpp */; };
-		00CB94C01892AE75000C093B /* StateManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00CB94B91892AE75000C093B /* StateManager.cpp */; };
+		0029A4841892C2480044CB65 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A4831892C2480044CB65 /* main.cpp */; };
+		0029A4871892C2480044CB65 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0029A4861892C2480044CB65 /* cute_image.jpg */; };
+		0029A4891892C2480044CB65 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 0029A4881892C2480044CB65 /* nice_music.ogg */; };
+		0029A48B1892C2480044CB65 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0029A48A1892C2480044CB65 /* sansation.ttf */; };
+		0029A48D1892C2480044CB65 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0029A48C1892C2480044CB65 /* icon.png */; };
+		0029A4A31892C2EF0044CB65 /* CreditState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A49D1892C2EF0044CB65 /* CreditState.cpp */; };
+		0029A4A41892C2EF0044CB65 /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A49E1892C2EF0044CB65 /* Engine.cpp */; };
+		0029A4A51892C2EF0044CB65 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A49F1892C2EF0044CB65 /* GameState.cpp */; };
+		0029A4A61892C2EF0044CB65 /* LoadingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A4A01892C2EF0044CB65 /* LoadingState.cpp */; };
+		0029A4A71892C2EF0044CB65 /* OptionsState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A4A11892C2EF0044CB65 /* OptionsState.cpp */; };
+		0029A4A81892C2EF0044CB65 /* StartMenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A4A21892C2EF0044CB65 /* StartMenuState.cpp */; };
+		0029A4AF1892C3A60044CB65 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0029A4A91892C3A60044CB65 /* sfml-audio.framework */; };
+		0029A4B01892C3A60044CB65 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0029A4AA1892C3A60044CB65 /* sfml-graphics.framework */; };
+		0029A4B11892C3A60044CB65 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0029A4AB1892C3A60044CB65 /* sfml-network.framework */; };
+		0029A4B21892C3A60044CB65 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0029A4AC1892C3A60044CB65 /* sfml-system.framework */; };
+		0029A4B31892C3A60044CB65 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0029A4AD1892C3A60044CB65 /* sfml-window.framework */; };
+		0029A4B41892C3A60044CB65 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0029A4AE1892C3A60044CB65 /* SFML.framework */; };
+		0029A4B61892C44E0044CB65 /* StateManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A4B51892C44E0044CB65 /* StateManager.cpp */; };
+		0029A4B81892C47A0044CB65 /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0029A4B71892C47A0044CB65 /* State.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00CB94991892AD9F000C093B /* Escape_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escape_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00CB949D1892AD9F000C093B /* Escape_V2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Escape_V2-Info.plist"; sourceTree = "<group>"; };
-		00CB94A11892AD9F000C093B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		00CB94A41892AD9F000C093B /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		00CB94A61892AD9F000C093B /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		00CB94A81892AD9F000C093B /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		00CB94AA1892AD9F000C093B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		00CB94B31892AE75000C093B /* CreditState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreditState.cpp; sourceTree = "<group>"; };
-		00CB94B41892AE75000C093B /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
-		00CB94B51892AE75000C093B /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
-		00CB94B61892AE75000C093B /* OptionsState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionsState.cpp; sourceTree = "<group>"; };
-		00CB94B71892AE75000C093B /* StartMenuState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StartMenuState.cpp; sourceTree = "<group>"; };
-		00CB94B81892AE75000C093B /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
-		00CB94B91892AE75000C093B /* StateManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateManager.cpp; sourceTree = "<group>"; };
-		00CB94C11892AE97000C093B /* CreditState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditState.h; sourceTree = "<group>"; };
-		00CB94C21892AE97000C093B /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
-		00CB94C31892AE97000C093B /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
-		00CB94C41892AE97000C093B /* OptionsState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsState.h; sourceTree = "<group>"; };
-		00CB94C51892AE97000C093B /* StartMenuState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMenuState.h; sourceTree = "<group>"; };
-		00CB94C61892AE97000C093B /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
-		00CB94C71892AE97000C093B /* Statemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statemanager.h; sourceTree = "<group>"; };
+		0029A47B1892C2480044CB65 /* Escape_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Escape_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029A47F1892C2480044CB65 /* Escape_V2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Escape_V2-Info.plist"; sourceTree = "<group>"; };
+		0029A4831892C2480044CB65 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0029A4861892C2480044CB65 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		0029A4881892C2480044CB65 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		0029A48A1892C2480044CB65 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		0029A48C1892C2480044CB65 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0029A4951892C2CC0044CB65 /* CreditState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditState.h; sourceTree = "<group>"; };
+		0029A4961892C2CC0044CB65 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		0029A4971892C2CC0044CB65 /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		0029A4981892C2CC0044CB65 /* LoadingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingState.h; sourceTree = "<group>"; };
+		0029A4991892C2CC0044CB65 /* OptionsState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsState.h; sourceTree = "<group>"; };
+		0029A49A1892C2CC0044CB65 /* StartMenuState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMenuState.h; sourceTree = "<group>"; };
+		0029A49B1892C2CC0044CB65 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		0029A49C1892C2CC0044CB65 /* Statemanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statemanager.h; sourceTree = "<group>"; };
+		0029A49D1892C2EF0044CB65 /* CreditState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreditState.cpp; sourceTree = "<group>"; };
+		0029A49E1892C2EF0044CB65 /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
+		0029A49F1892C2EF0044CB65 /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		0029A4A01892C2EF0044CB65 /* LoadingState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadingState.cpp; sourceTree = "<group>"; };
+		0029A4A11892C2EF0044CB65 /* OptionsState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionsState.cpp; sourceTree = "<group>"; };
+		0029A4A21892C2EF0044CB65 /* StartMenuState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StartMenuState.cpp; sourceTree = "<group>"; };
+		0029A4A91892C3A60044CB65 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		0029A4AA1892C3A60044CB65 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		0029A4AB1892C3A60044CB65 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		0029A4AC1892C3A60044CB65 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		0029A4AD1892C3A60044CB65 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		0029A4AE1892C3A60044CB65 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		0029A4B51892C44E0044CB65 /* StateManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateManager.cpp; sourceTree = "<group>"; };
+		0029A4B71892C47A0044CB65 /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00CB94951892AD9F000C093B /* Frameworks */ = {
+		0029A4771892C2480044CB65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0029A4AF1892C3A60044CB65 /* sfml-audio.framework in Frameworks */,
+				0029A4B01892C3A60044CB65 /* sfml-graphics.framework in Frameworks */,
+				0029A4B11892C3A60044CB65 /* sfml-network.framework in Frameworks */,
+				0029A4B21892C3A60044CB65 /* sfml-system.framework in Frameworks */,
+				0029A4B31892C3A60044CB65 /* sfml-window.framework in Frameworks */,
+				0029A4B41892C3A60044CB65 /* SFML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00CB948F1892AD9F000C093B = {
+		0029A4711892C2480044CB65 = {
 			isa = PBXGroup;
 			children = (
-				00CB949B1892AD9F000C093B /* Escape_V2 */,
-				00CB949A1892AD9F000C093B /* Products */,
+				0029A4A91892C3A60044CB65 /* sfml-audio.framework */,
+				0029A4AA1892C3A60044CB65 /* sfml-graphics.framework */,
+				0029A4AB1892C3A60044CB65 /* sfml-network.framework */,
+				0029A4AC1892C3A60044CB65 /* sfml-system.framework */,
+				0029A4AD1892C3A60044CB65 /* sfml-window.framework */,
+				0029A4AE1892C3A60044CB65 /* SFML.framework */,
+				0029A47D1892C2480044CB65 /* Escape_V2 */,
+				0029A47C1892C2480044CB65 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00CB949A1892AD9F000C093B /* Products */ = {
+		0029A47C1892C2480044CB65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00CB94991892AD9F000C093B /* Escape_V2.app */,
+				0029A47B1892C2480044CB65 /* Escape_V2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00CB949B1892AD9F000C093B /* Escape_V2 */ = {
+		0029A47D1892C2480044CB65 /* Escape_V2 */ = {
 			isa = PBXGroup;
 			children = (
-				00CB94B21892AE3E000C093B /* Sources */,
-				00CB94B11892AE1B000C093B /* Headers */,
-				00CB94A31892AD9F000C093B /* Resources */,
-				00CB949C1892AD9F000C093B /* Supporting Files */,
+				0029A4941892C2AF0044CB65 /* Headers */,
+				0029A4931892C2A00044CB65 /* Source */,
+				0029A4851892C2480044CB65 /* Resources */,
+				0029A47E1892C2480044CB65 /* Supporting Files */,
 			);
 			path = Escape_V2;
 			sourceTree = "<group>";
 		};
-		00CB949C1892AD9F000C093B /* Supporting Files */ = {
+		0029A47E1892C2480044CB65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00CB949D1892AD9F000C093B /* Escape_V2-Info.plist */,
+				0029A47F1892C2480044CB65 /* Escape_V2-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00CB94A31892AD9F000C093B /* Resources */ = {
+		0029A4851892C2480044CB65 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				00CB94A41892AD9F000C093B /* cute_image.jpg */,
-				00CB94A61892AD9F000C093B /* nice_music.ogg */,
-				00CB94A81892AD9F000C093B /* sansation.ttf */,
-				00CB94AA1892AD9F000C093B /* icon.png */,
+				0029A4861892C2480044CB65 /* cute_image.jpg */,
+				0029A4881892C2480044CB65 /* nice_music.ogg */,
+				0029A48A1892C2480044CB65 /* sansation.ttf */,
+				0029A48C1892C2480044CB65 /* icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		00CB94B11892AE1B000C093B /* Headers */ = {
+		0029A4931892C2A00044CB65 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				00CB94C11892AE97000C093B /* CreditState.h */,
-				00CB94C21892AE97000C093B /* Engine.h */,
-				00CB94C31892AE97000C093B /* GameState.h */,
-				00CB94C41892AE97000C093B /* OptionsState.h */,
-				00CB94C51892AE97000C093B /* StartMenuState.h */,
-				00CB94C61892AE97000C093B /* State.h */,
-				00CB94C71892AE97000C093B /* Statemanager.h */,
+				0029A4B71892C47A0044CB65 /* State.cpp */,
+				0029A4B51892C44E0044CB65 /* StateManager.cpp */,
+				0029A49D1892C2EF0044CB65 /* CreditState.cpp */,
+				0029A49E1892C2EF0044CB65 /* Engine.cpp */,
+				0029A49F1892C2EF0044CB65 /* GameState.cpp */,
+				0029A4A01892C2EF0044CB65 /* LoadingState.cpp */,
+				0029A4A11892C2EF0044CB65 /* OptionsState.cpp */,
+				0029A4A21892C2EF0044CB65 /* StartMenuState.cpp */,
+				0029A4831892C2480044CB65 /* main.cpp */,
 			);
-			name = Headers;
+			name = Source;
 			sourceTree = "<group>";
 		};
-		00CB94B21892AE3E000C093B /* Sources */ = {
+		0029A4941892C2AF0044CB65 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				00CB94B31892AE75000C093B /* CreditState.cpp */,
-				00CB94B41892AE75000C093B /* Engine.cpp */,
-				00CB94B51892AE75000C093B /* GameState.cpp */,
-				00CB94B61892AE75000C093B /* OptionsState.cpp */,
-				00CB94B71892AE75000C093B /* StartMenuState.cpp */,
-				00CB94B81892AE75000C093B /* State.cpp */,
-				00CB94B91892AE75000C093B /* StateManager.cpp */,
-				00CB94A11892AD9F000C093B /* main.cpp */,
+				0029A4951892C2CC0044CB65 /* CreditState.h */,
+				0029A4961892C2CC0044CB65 /* Engine.h */,
+				0029A4971892C2CC0044CB65 /* GameState.h */,
+				0029A4981892C2CC0044CB65 /* LoadingState.h */,
+				0029A4991892C2CC0044CB65 /* OptionsState.h */,
+				0029A49A1892C2CC0044CB65 /* StartMenuState.h */,
+				0029A49B1892C2CC0044CB65 /* State.h */,
+				0029A49C1892C2CC0044CB65 /* Statemanager.h */,
 			);
-			name = Sources;
+			name = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00CB94981892AD9F000C093B /* Escape_V2 */ = {
+		0029A47A1892C2480044CB65 /* Escape_V2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00CB94AE1892AD9F000C093B /* Build configuration list for PBXNativeTarget "Escape_V2" */;
+			buildConfigurationList = 0029A4901892C2480044CB65 /* Build configuration list for PBXNativeTarget "Escape_V2" */;
 			buildPhases = (
-				00CB94941892AD9F000C093B /* Sources */,
-				00CB94951892AD9F000C093B /* Frameworks */,
-				00CB94961892AD9F000C093B /* Resources */,
-				00CB94971892AD9F000C093B /* ShellScript */,
+				0029A4761892C2480044CB65 /* Sources */,
+				0029A4771892C2480044CB65 /* Frameworks */,
+				0029A4781892C2480044CB65 /* Resources */,
+				0029A4791892C2480044CB65 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,51 +178,51 @@
 			);
 			name = Escape_V2;
 			productName = Escape_V2;
-			productReference = 00CB94991892AD9F000C093B /* Escape_V2.app */;
+			productReference = 0029A47B1892C2480044CB65 /* Escape_V2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00CB94901892AD9F000C093B /* Project object */ = {
+		0029A4721892C2480044CB65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Robin AB";
 			};
-			buildConfigurationList = 00CB94931892AD9F000C093B /* Build configuration list for PBXProject "Escape_V2" */;
+			buildConfigurationList = 0029A4751892C2480044CB65 /* Build configuration list for PBXProject "Escape_V2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 00CB948F1892AD9F000C093B;
-			productRefGroup = 00CB949A1892AD9F000C093B /* Products */;
+			mainGroup = 0029A4711892C2480044CB65;
+			productRefGroup = 0029A47C1892C2480044CB65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00CB94981892AD9F000C093B /* Escape_V2 */,
+				0029A47A1892C2480044CB65 /* Escape_V2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00CB94961892AD9F000C093B /* Resources */ = {
+		0029A4781892C2480044CB65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CB94AB1892AD9F000C093B /* icon.png in Resources */,
-				00CB94A91892AD9F000C093B /* sansation.ttf in Resources */,
-				00CB94A71892AD9F000C093B /* nice_music.ogg in Resources */,
-				00CB94A51892AD9F000C093B /* cute_image.jpg in Resources */,
+				0029A48D1892C2480044CB65 /* icon.png in Resources */,
+				0029A48B1892C2480044CB65 /* sansation.ttf in Resources */,
+				0029A4891892C2480044CB65 /* nice_music.ogg in Resources */,
+				0029A4871892C2480044CB65 /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00CB94971892AD9F000C093B /* ShellScript */ = {
+		0029A4791892C2480044CB65 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,25 +238,26 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00CB94941892AD9F000C093B /* Sources */ = {
+		0029A4761892C2480044CB65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CB94BD1892AE75000C093B /* OptionsState.cpp in Sources */,
-				00CB94BA1892AE75000C093B /* CreditState.cpp in Sources */,
-				00CB94BC1892AE75000C093B /* GameState.cpp in Sources */,
-				00CB94BB1892AE75000C093B /* Engine.cpp in Sources */,
-				00CB94BF1892AE75000C093B /* State.cpp in Sources */,
-				00CB94C01892AE75000C093B /* StateManager.cpp in Sources */,
-				00CB94A21892AD9F000C093B /* main.cpp in Sources */,
-				00CB94BE1892AE75000C093B /* StartMenuState.cpp in Sources */,
+				0029A4A71892C2EF0044CB65 /* OptionsState.cpp in Sources */,
+				0029A4A81892C2EF0044CB65 /* StartMenuState.cpp in Sources */,
+				0029A4A61892C2EF0044CB65 /* LoadingState.cpp in Sources */,
+				0029A4A31892C2EF0044CB65 /* CreditState.cpp in Sources */,
+				0029A4A51892C2EF0044CB65 /* GameState.cpp in Sources */,
+				0029A4B61892C44E0044CB65 /* StateManager.cpp in Sources */,
+				0029A4A41892C2EF0044CB65 /* Engine.cpp in Sources */,
+				0029A4841892C2480044CB65 /* main.cpp in Sources */,
+				0029A4B81892C47A0044CB65 /* State.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		00CB94AC1892AD9F000C093B /* Debug */ = {
+		0029A48E1892C2480044CB65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -266,7 +296,7 @@
 					"$(SFML_NETWORK)",
 				);
 				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
-				SFML_BINARY_TYPE = DYLIBS;
+				SFML_BINARY_TYPE = FRAMEWORKS;
 				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
 				SFML_LINK_DYLIBS_PREFIX = "-l";
 				SFML_LINK_DYLIBS_SUFFIX = "";
@@ -281,7 +311,7 @@
 			};
 			name = Debug;
 		};
-		00CB94AD1892AD9F000C093B /* Release */ = {
+		0029A48F1892C2480044CB65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
@@ -316,7 +346,7 @@
 					"$(SFML_NETWORK)",
 				);
 				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
-				SFML_BINARY_TYPE = DYLIBS;
+				SFML_BINARY_TYPE = FRAMEWORKS;
 				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
 				SFML_LINK_DYLIBS_PREFIX = "-l";
 				SFML_LINK_DYLIBS_SUFFIX = "";
@@ -331,17 +361,25 @@
 			};
 			name = Release;
 		};
-		00CB94AF1892AD9F000C093B /* Debug */ = {
+		0029A4911892C2480044CB65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "Escape_V2/Escape_V2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		00CB94B01892AD9F000C093B /* Release */ = {
+		0029A4921892C2480044CB65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = "Escape_V2/Escape_V2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,25 +388,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00CB94931892AD9F000C093B /* Build configuration list for PBXProject "Escape_V2" */ = {
+		0029A4751892C2480044CB65 /* Build configuration list for PBXProject "Escape_V2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00CB94AC1892AD9F000C093B /* Debug */,
-				00CB94AD1892AD9F000C093B /* Release */,
+				0029A48E1892C2480044CB65 /* Debug */,
+				0029A48F1892C2480044CB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00CB94AE1892AD9F000C093B /* Build configuration list for PBXNativeTarget "Escape_V2" */ = {
+		0029A4901892C2480044CB65 /* Build configuration list for PBXNativeTarget "Escape_V2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00CB94AF1892AD9F000C093B /* Debug */,
-				00CB94B01892AD9F000C093B /* Release */,
+				0029A4911892C2480044CB65 /* Debug */,
+				0029A4921892C2480044CB65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00CB94901892AD9F000C093B /* Project object */;
+	rootObject = 0029A4721892C2480044CB65 /* Project object */;
 }

@@ -24,18 +24,9 @@ void StateManager::Update() {
 	if(mp_current == nullptr) {
 		return;
 	}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-	if(mp_current->Update()) {
-=======
-	if(mp_current->Update(m_deltatime)) {
->>>>>>> Robin
-		
-=======
+	
 	if(!mp_current->Update()) {
 			ChangeState();
->>>>>>> 294cddd251dae30309c89b89dc27b02562fbead2
 	}
 
 }
@@ -78,20 +69,4 @@ void StateManager::SetState(const std::string &c_type) {
 		}
 	}
 }
-<<<<<<< HEAD
 
-void StateManager::Init() {
-	for(unsigned int i = 0; i < m_states.size(); i++) {
-        //lägg till en Init() i State
-		//m_states.at(i)->Init();
-	}
-}
-
-void StateManager::CleanUp() {
-	for(unsigned int i = 0; i < m_states.size(); i++) {
-        //använd delete istället eller lägg till en Cleanup() funktion i State
-		//m_states.at(i)->CleanUp();
-	}
-}
-=======
->>>>>>> Robin

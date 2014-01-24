@@ -39,21 +39,12 @@ bool Engine::Initialize()
         {
             return false;
         }
-<<<<<<< HEAD
         mp_stateManager->Attach(new StartMenuState());
 		mp_stateManager->Attach(new GameState());
 		mp_stateManager->Attach(new OptionsState());
 		mp_stateManager->Attach(new CreditState());
-<<<<<<< HEAD
-        mp_stateManager->SetState("GameState");
-=======
-        mp_stateManager->Attach(new StartMenuState);
-        mp_stateManager->SetState("StartMenuState");
->>>>>>> Robin
-=======
 		mp_stateManager->Attach(new LoadingState());
         mp_stateManager->SetState("LoadingState");
->>>>>>> 294cddd251dae30309c89b89dc27b02562fbead2
         //lägg till fler states med tiden, LoadingState kommer vara den första som körs senare
     }
     return true;

@@ -20,20 +20,8 @@ void StartMenuState::Exit() {
 
 }
 
-<<<<<<< HEAD
 bool StartMenuState::Update() {
-<<<<<<< HEAD
-	return false;
-=======
-bool StartMenuState::Update(float deltatime) {
-    
->>>>>>> Robin
-}
-
-void StartMenuState::Draw() {
-    
-=======
-	UpdateEvents();
+    UpdateEvents();
 
 	
 	return true;
@@ -43,7 +31,6 @@ void StartMenuState::Draw() {
 	
 	ms_window->clear();
 	ms_window->display();
->>>>>>> 294cddd251dae30309c89b89dc27b02562fbead2
 }
 
 std::string StartMenuState::Next() {
@@ -67,5 +54,5 @@ void StartMenuState::UpdateEvents() {
 	}
 
 
-	sf::Mouse::getPosition()
+	sf::Mouse::getPosition();
 }

@@ -25,10 +25,10 @@ void StateManager::Update() {
 		return;
 	}
 
-	if(mp_current->Update()) {
-		
+	if(!mp_current->Update()) {
+			ChangeState();
 	}
-	ChangeState();
+
 }
 
 void StateManager::Draw() {

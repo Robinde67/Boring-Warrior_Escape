@@ -19,6 +19,8 @@ void GameState::Exit() {
 }
 
 bool GameState::Update() {
+
+
 	return false;
 }
 

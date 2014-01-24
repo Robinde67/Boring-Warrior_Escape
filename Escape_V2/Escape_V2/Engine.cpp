@@ -12,7 +12,7 @@
 #include "GameState.h"
 #include "CreditState.h"
 #include "OptionsState.h"
-
+#include "LoadingState.h"
 
 Engine::Engine()
 {
@@ -43,7 +43,8 @@ bool Engine::Initialize()
 		mp_stateManager->Attach(new GameState());
 		mp_stateManager->Attach(new OptionsState());
 		mp_stateManager->Attach(new CreditState());
-        mp_stateManager->SetState("GameState");
+		mp_stateManager->Attach(new LoadingState());
+        mp_stateManager->SetState("LoadingState");
         //lägg till fler states med tiden, LoadingState kommer vara den första som körs senare
     }
     return true;
@@ -55,5 +56,6 @@ void Engine::Run()
     while(mp_stateManager->IsRunning())
     {
         mp_stateManager->Update();
+		mp_stateManager->Draw();
     }
 }

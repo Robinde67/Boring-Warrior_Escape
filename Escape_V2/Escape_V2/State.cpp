@@ -7,7 +7,9 @@
 //
 
 #include "State.h"
-#include <SFML/Window.hpp>
+#include <SFML/Graphics.hpp>
 
 //skapa ett nytt fönster att använda tills LoadingState är klar
-sf::Window *State::ms_window = new sf::Window;
+//sf::Window *State::ms_window = new sf::Window;
+
+sf::RenderWindow *State::ms_window = nullptr;

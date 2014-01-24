@@ -21,6 +21,8 @@ public:
 	void Init();
 	void CleanUp();
 
+
+
 private:
 	std::vector<State*> m_states;
 	State *mp_current;

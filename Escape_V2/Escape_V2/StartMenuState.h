@@ -19,6 +19,8 @@ public:
 	bool IsType(const std::string &c_type);
 	void Reset();
 
+	void UpdateEvents();
+
 private:
 	std::string m_nextState;
 };

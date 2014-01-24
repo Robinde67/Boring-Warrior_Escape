@@ -74,15 +74,18 @@
     <ClCompile Include="CreditState.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="LoadingState.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OptionsState.cpp" />
     <ClCompile Include="StartMenuState.cpp" />
+    <ClCompile Include="State.cpp" />
     <ClCompile Include="StateManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CreditState.h" />
     <ClInclude Include="Engine.h" />
     <ClInclude Include="GameState.h" />
+    <ClInclude Include="LoadingState.h" />
     <ClInclude Include="OptionsState.h" />
     <ClInclude Include="StartMenuState.h" />
     <ClInclude Include="State.h" />

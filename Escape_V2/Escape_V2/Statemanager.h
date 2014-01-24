@@ -24,6 +24,8 @@ public:
 private:
 	std::vector<State*> m_states;
 	State *mp_current;
+    
+    float m_deltatime;
 
 	bool m_quit;
 

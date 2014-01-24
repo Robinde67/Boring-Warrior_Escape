@@ -13,7 +13,7 @@ public:
 
 	void Enter();
 	void Exit();
-	bool Update(float deltatime);
+	bool Update();
 	void Draw();
 	std::string Next();
 	bool IsType(const std::string &c_type);

@@ -18,8 +18,8 @@ void OptionsState::Exit() {
 
 }
 
-bool OptionsState::Update(float deltatime) {
-
+bool OptionsState::Update() {
+	return false;
 }
 
 void OptionsState::Draw() {

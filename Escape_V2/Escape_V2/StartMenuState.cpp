@@ -18,8 +18,8 @@ void StartMenuState::Exit() {
 
 }
 
-bool StartMenuState::Update(float deltatime) {
-
+bool StartMenuState::Update() {
+	return false;
 }
 
 void StartMenuState::Draw() {

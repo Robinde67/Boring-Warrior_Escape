@@ -13,7 +13,7 @@ public:
 	~StateManager();
 
 	void Attach(State *state);
-	void Update(float deltatime);
+	void Update();
 	void Draw();
 	void SetState(const std::string &c_type);
 	void ChangeState();

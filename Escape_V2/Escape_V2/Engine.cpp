@@ -9,6 +9,10 @@
 #include "Engine.h"
 #include "Statemanager.h"
 #include "StartMenuState.h"
+#include "GameState.h"
+#include "CreditState.h"
+#include "OptionsState.h"
+
 
 Engine::Engine()
 {
@@ -36,7 +40,10 @@ bool Engine::Initialize()
             return false;
         }
         mp_stateManager->Attach(new StartMenuState());
-        mp_stateManager->SetState("StartMenuState");
+		mp_stateManager->Attach(new GameState());
+		mp_stateManager->Attach(new OptionsState());
+		mp_stateManager->Attach(new CreditState());
+        mp_stateManager->SetState("GameState");
         //lägg till fler states med tiden, LoadingState kommer vara den första som körs senare
     }
     return true;

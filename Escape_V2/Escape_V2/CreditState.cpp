@@ -18,8 +18,8 @@ void CreditState::Exit() {
 
 }
 
-bool CreditState::Update(float deltatime) {
-
+bool CreditState::Update() {
+	return false;
 }
 
 void CreditState::Draw() {

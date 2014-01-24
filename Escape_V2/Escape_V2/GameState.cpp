@@ -18,8 +18,8 @@ void GameState::Exit() {
 
 }
 
-bool GameState::Update(float deltatime) {
-
+bool GameState::Update() {
+	return false;
 }
 
 void GameState::Draw() {

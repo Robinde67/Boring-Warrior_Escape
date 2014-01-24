@@ -4,15 +4,13 @@
 
 #include <string>
 
-
-
 namespace sf{
     class Window;
 };
 
 class State {
 public:
-	virtual ~State();
+	virtual ~State() {};
 
 	//virtual bool Init() = 0; förslagsvis
     virtual void Enter() = 0;

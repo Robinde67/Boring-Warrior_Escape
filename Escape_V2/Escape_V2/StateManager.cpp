@@ -20,12 +20,12 @@ void StateManager::Attach(State *p_state) {
 	m_states.push_back(p_state);
 }
 
-void StateManager::Update(float deltatime) {
+void StateManager::Update() {
 	if(mp_current == nullptr) {
 		return;
 	}
 
-	if(mp_current->Update(deltatime)) {
+	if(mp_current->Update(m_deltatime)) {
 		
 	}
 	ChangeState();
@@ -67,19 +67,5 @@ void StateManager::SetState(const std::string &c_type) {
 			mp_current->Enter();
 			return;
 		}
-	}
-}
-
-void StateManager::Init() {
-	for(unsigned int i = 0; i < m_states.size(); i++) {
-        //lägg till en Init() i State
-		m_states.at(i)->Init();
-	}
-}
-
-void StateManager::CleanUp() {
-	for(unsigned int i = 0; i < m_states.size(); i++) {
-        //använd delete istället eller lägg till en Cleanup() funktion i State
-		m_states.at(i)->CleanUp();
 	}
 }

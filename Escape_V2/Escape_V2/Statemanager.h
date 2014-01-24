@@ -13,7 +13,7 @@ public:
 	~StateManager();
 
 	void Attach(State *state);
-	void Update(float deltatime);
+	void Update();
 	void Draw();
 	void SetState(const std::string &c_type);
 	void ChangeState();
@@ -24,6 +24,8 @@ public:
 private:
 	std::vector<State*> m_states;
 	State *mp_current;
+    
+    float m_deltatime;
 
 	bool m_quit;
 

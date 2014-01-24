@@ -19,11 +19,11 @@ void StartMenuState::Exit() {
 }
 
 bool StartMenuState::Update(float deltatime) {
-
+    
 }
 
 void StartMenuState::Draw() {
-
+    
 }
 
 std::string StartMenuState::Next() {

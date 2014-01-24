@@ -35,7 +35,7 @@ bool Engine::Initialize()
         {
             return false;
         }
-        mp_stateManager->Attach(new StartMenuState());
+        mp_stateManager->Attach(new StartMenuState);
         mp_stateManager->SetState("StartMenuState");
         //lägg till fler states med tiden, LoadingState kommer vara den första som körs senare
     }

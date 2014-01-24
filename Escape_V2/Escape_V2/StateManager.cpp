@@ -26,13 +26,18 @@ void StateManager::Update() {
 	}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if(mp_current->Update()) {
 =======
 	if(mp_current->Update(m_deltatime)) {
 >>>>>>> Robin
 		
+=======
+	if(!mp_current->Update()) {
+			ChangeState();
+>>>>>>> 294cddd251dae30309c89b89dc27b02562fbead2
 	}
-	ChangeState();
+
 }
 
 void StateManager::Draw() {

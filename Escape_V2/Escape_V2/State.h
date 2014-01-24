@@ -5,7 +5,7 @@
 #include <string>
 
 namespace sf{
-    class Window;
+    class RenderWindow;
 };
 
 class State {
@@ -22,7 +22,7 @@ public:
 	virtual void Reset() = 0;
 
 protected:
-	static sf::Window* ms_window;
+	static sf::RenderWindow* ms_window;
     //deltatime är en global variabel alla states kommer använda, och bör uppdateras när skärmen uppdateras
     static float ms_deltatime;
 };

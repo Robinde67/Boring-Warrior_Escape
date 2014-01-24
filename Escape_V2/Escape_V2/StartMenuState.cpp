@@ -1,6 +1,8 @@
 // StartMenuState.cpp
 
 #include "StartMenuState.h"
+#include <SFML/Graphics.hpp>
+#include <iostream>
 
 StartMenuState::StartMenuState() {
 	m_nextState = "";
@@ -20,6 +22,7 @@ void StartMenuState::Exit() {
 
 <<<<<<< HEAD
 bool StartMenuState::Update() {
+<<<<<<< HEAD
 	return false;
 =======
 bool StartMenuState::Update(float deltatime) {
@@ -29,6 +32,18 @@ bool StartMenuState::Update(float deltatime) {
 
 void StartMenuState::Draw() {
     
+=======
+	UpdateEvents();
+
+	
+	return true;
+}
+
+void StartMenuState::Draw() {
+	
+	ms_window->clear();
+	ms_window->display();
+>>>>>>> 294cddd251dae30309c89b89dc27b02562fbead2
 }
 
 std::string StartMenuState::Next() {
@@ -41,4 +56,16 @@ bool StartMenuState::IsType(const std::string &c_type) {
 
 void StartMenuState::Reset() {
 	m_nextState = "";
+}
+
+void StartMenuState::UpdateEvents() {
+	sf::Event event;
+	while (ms_window->pollEvent(event)) {
+		if (event.type == sf::Event::Closed) {
+			ms_window->close();
+		}
+	}
+
+
+	sf::Mouse::getPosition()
 }

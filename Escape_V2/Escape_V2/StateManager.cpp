@@ -25,7 +25,11 @@ void StateManager::Update() {
 		return;
 	}
 
+<<<<<<< HEAD
 	if(mp_current->Update()) {
+=======
+	if(mp_current->Update(m_deltatime)) {
+>>>>>>> Robin
 		
 	}
 	ChangeState();
@@ -69,6 +73,7 @@ void StateManager::SetState(const std::string &c_type) {
 		}
 	}
 }
+<<<<<<< HEAD
 
 void StateManager::Init() {
 	for(unsigned int i = 0; i < m_states.size(); i++) {
@@ -83,3 +88,5 @@ void StateManager::CleanUp() {
 		//m_states.at(i)->CleanUp();
 	}
 }
+=======
+>>>>>>> Robin

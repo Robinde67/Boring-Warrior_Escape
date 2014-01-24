@@ -18,12 +18,17 @@ void StartMenuState::Exit() {
 
 }
 
+<<<<<<< HEAD
 bool StartMenuState::Update() {
 	return false;
+=======
+bool StartMenuState::Update(float deltatime) {
+    
+>>>>>>> Robin
 }
 
 void StartMenuState::Draw() {
-
+    
 }
 
 std::string StartMenuState::Next() {
